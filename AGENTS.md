@@ -24,7 +24,7 @@ Fehlt eine dieser Informationen, Arbeit sofort abbrechen und genau die fehlende 
 - Jeder Agent verwendet eine UUID im Standardformat, zum Beispiel `550e8400-e29b-41d4-a716-446655440000`.
 - Vor Vergabe die vorhandenen Verzeichnisse unter `/src/` und `AGENTS_communication.md` prüfen.
 - Eine bereits vorhandene UUID niemals wiederverwenden.
-- Nach der Vergabe bleibt die UUID für die gesamte Aufgabe unverändert.
+- Nach der Vergabe bleibt die UUID als dein name7identifier für die gesamte Aufgabe unverändert.
 - Arbeitsverzeichnis von `OS_AGENT` und `HELP_AGENT`: `/src/AGENT-UUID/`.
 
 ## Rollen
