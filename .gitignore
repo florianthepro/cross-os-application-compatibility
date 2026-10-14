@@ -1,5 +1,0 @@
-*.log
-.cache/
-build/
-dist/
-staging/
