@@ -146,13 +146,13 @@ Alle Kommunikation erfolgt ausschließlich über `AGENTS_communication.md`.
 Nachricht eines `OS_AGENT` oder `HELP_AGENT`:
 
 ```text
-Agent-UUID:
-```
+`Agent-UUID`:
+
 
 ```text
 <Nachricht an FULL_AGENT>
 ```
-
+```
 Nachricht des `FULL_AGENT` an einen Agenten:
 
 ```text
