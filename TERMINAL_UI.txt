@@ -1,0 +1,31 @@
+COAC TERMINAL UI
+================
+
+Der Inhalt von COAC_ASCII_ART.txt steht in jeder interaktiven Ansicht immer
+unverändert oben. Danach folgen Seitentitel, Host, Status, Updatehinweis und Menü.
+Beim Ansichtswechsel wird die Anzeige neu aufgebaut und die Grafik erneut gerendert.
+
+Unter 78 Spalten oder nicht interaktiv:
+[COAC] Cross-OS Application Compatibility
+
+HAUPTMENÜ
+----------
+Status: [OK] Bereit
+Update: [!] Neue Version verfügbar, Reinstallation bereit
+
+[1] Kompatibilität installieren
+[2] Kompatibilität reinstallieren
+[3] Kompatibilität entfernen
+[4] Anwendungen und verwaltete Zustände
+[5] Verbliebene interne Anwendungsdaten
+[6] Status und Diagnose
+[Q] Beenden
+
+Regeln:
+- Enter allein startet nie eine destruktive Aktion.
+- Löschaktionen verlangen den ausgeschriebenen Modul- oder Anwendungsnamen.
+- [OK], [!], [X], [-], [..] und [i] tragen die Bedeutung unabhängig von Farbe.
+- NO_COLOR, TERM=dumb und umgeleitete Ausgabe deaktivieren ANSI-Farben.
+- Diagnoseausgaben enthalten keine Tokens, Passwörter oder Dateiinhalte.
+- Reinstallation schließt abhängige Prozesse vor dem atomaren Runtime-Wechsel.
+- Ein Fehler vor dem Wechsel lässt die alte Runtime aktiv; ein Fehler danach löst Rollback aus.

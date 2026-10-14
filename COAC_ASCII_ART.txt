@@ -1,0 +1,12 @@
+  +======================================================================+
+  |                                                                      |
+  |    CCCCC     OOOOO       A        CCCCC                              |
+  |   CC        OO   OO     A A      CC                                  |
+  |   CC        OO   OO    AAAAA     CC                                  |
+  |   CC        OO   OO   AA   AA    CC                                  |
+  |    CCCCC     OOOOO    AA   AA     CCCCC                              |
+  |                                                                      |
+  |                 CROSS-OS APPLICATION COMPATIBILITY                   |
+  |                   Windows <-> Linux <-> macOS                        |
+  |                                                                      |
+  +======================================================================+
