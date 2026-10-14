@@ -58,3 +58,10 @@
 - Neue Verträge, Module und Hostfähigkeiten gemäß `OS_AGENTS.md` registrieren und testen.
 - Bekannte Abweichungen im dafür vorgesehenen Bereich unter `/scr/` maschinenlesbar dokumentieren.
 - Ergebnis, ausgeführte Tests, verbleibende bekannte Abweichungen und betroffene Pfade knapp ausgeben.
+
+
+
+`AGENT-UUID`:
+```
+<text>
+```
