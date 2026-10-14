@@ -1,0 +1,319 @@
+CROSS-OS APPLICATION COMPATIBILITY
+Terminal UI and ASCII Branding
+================================
+
+1. Project identity
+-------------------
+
+Project:    Cross-OS Application Compatibility
+Repository: cross-os-application-compatibility
+Command:    cross-os-compat
+Short ID:   COAC
+
+Primary ASCII logo, safe for every terminal:
+
++------------------------------------------------------------+
+|  CROSS-OS APPLICATION COMPATIBILITY                        |
+|  Windows <-> Linux <-> macOS                               |
++------------------------------------------------------------+
+
+Compact logo:
+
+[COAC] Cross-OS Application Compatibility
+
+Do not use stylized letter art. The full name must remain readable in plain
+text, logs, screen readers, copied output and terminals without Unicode.
+
+2. Symbols
+----------
+
+ASCII mode:
+  [OK]   ready or successful
+  [!]    attention or update available
+  [X]    failed or unavailable
+  [-]    not installed
+  [..]   operation in progress
+  [i]    information
+
+Unicode mode:
+  [OK]   ready or successful
+  [!]    attention or update available
+  [X]    failed or unavailable
+  [-]    not installed
+  [..]   operation in progress
+  [i]    information
+
+Meaning must never depend on color or Unicode.
+
+3. Main menu
+------------
+
++------------------------------------------------------------+
+|  CROSS-OS APPLICATION COMPATIBILITY                        |
+|  Windows <-> Linux <-> macOS                               |
++------------------------------------------------------------+
+  User:   florian
+  Host:   Linux x86_64
+  Status: [OK] Ready
+  Update: [!] Version 1.4.0 available - reinstall to apply
+
+  Compatibility
+  [1] Install compatibility
+  [2] Reinstall compatibility
+  [3] Remove compatibility
+
+  Applications
+  [4] Installed and portable applications
+  [5] Remaining internal application data
+
+  System
+  [6] Status and diagnostics
+  [Q] Quit
+
+Select an action: _
+
+When no update exists:
+
+  Update: [OK] Current version 1.3.2
+
+4. Install compatibility
+------------------------
+
++------------------------------------------------------------+
+|  INSTALL COMPATIBILITY                                     |
++------------------------------------------------------------+
+  Installed modules are marked [OK].
+
+  [1] Windows applications      .exe, .msi          [-]
+  [2] macOS applications        .app, .pkg          [-]
+  [3] Debian applications       .deb                [OK]
+  [4] RPM applications          .rpm                [-]
+  [5] Flatpak applications      .flatpak            [OK]
+  [6] Snap applications         .snap               [-]
+
+  [B] Back
+
+Select a module: _
+
+Summary before installation:
+
++------------------------------------------------------------+
+|  INSTALL WINDOWS APPLICATION COMPATIBILITY                 |
++------------------------------------------------------------+
+  This installs for the current user:
+
+  - EXE and MSI file handlers
+  - Windows user-space ABI runtime
+  - application and permission broker
+  - desktop, audio, graphics and document integration
+  - x86 support required by this host
+
+  Other users are not changed.
+  Source application permissions remain restricted.
+
+  [I] Install
+  [B] Back
+
+Select an action: _
+
+5. Application overview
+-----------------------
+
++------------------------------------------------------------+
+|  APPLICATIONS                                              |
++------------------------------------------------------------+
+  Filter: [A] All  [W] Windows  [M] macOS  [L] Linux
+
+  Windows applications (3)
+  [1] Example Editor          installed       245 MiB
+  [2] Portable Utility        portable         38 MiB
+  [3] Removed Game            data remains    812 MiB
+
+  Linux applications (1)
+  [4] Example Tool            installed        91 MiB
+
+  [B] Back
+
+Select an application: _
+
+Application actions:
+
++------------------------------------------------------------+
+|  EXAMPLE EDITOR                                            |
++------------------------------------------------------------+
+  Source:          Windows .exe
+  State:           installed
+  Runtime:         Windows compatibility
+  Internal data:  24 MiB
+  User documents: outside management, never auto-deleted
+
+  [1] Open
+  [2] Repair integration
+  [3] Run source uninstaller
+  [4] Remove managed program components
+  [5] Delete internal application data
+  [B] Back
+
+Select an action: _
+
+6. Reinstall and update
+-----------------------
+
++------------------------------------------------------------+
+|  REINSTALL COMPATIBILITY                                   |
++------------------------------------------------------------+
+  Installed:  1.3.2
+  Available:  1.4.0
+
+  Reinstallation replaces runtime components and keeps:
+  [OK] selected compatibility modules
+  [OK] user configuration
+  [OK] application index
+  [OK] installed and portable applications
+  [OK] internal application data
+  [OK] document and folder permissions
+  [OK] normal user files
+
+  [R] Reinstall now
+  [L] Show release information
+  [B] Back
+
+Select an action: _
+
+Progress:
+
++------------------------------------------------------------+
+|  REINSTALLING                                              |
++------------------------------------------------------------+
+  [OK] Configuration loaded
+  [OK] Release signature verified
+  [OK] New runtime installed to staging
+  [OK] Runtime validation passed
+  [..] Switching runtime atomically
+  [-]  Removing previous runtime
+  [-]  Cleaning temporary files
+
+Do not close this terminal during the atomic switch.
+
+Completion:
+
+  [OK] Reinstallation completed
+  Version: 1.4.0
+  Configuration and application data were retained.
+  Temporary installation files were removed.
+
+  [Enter] Return to main menu
+
+7. Remove compatibility
+------------------------
+
++------------------------------------------------------------+
+|  REMOVE WINDOWS COMPATIBILITY                              |
++------------------------------------------------------------+
+  Affected:
+  - 3 installed applications
+  - 1 portable application with internal state
+  - 2 removed applications with remaining internal data
+
+  Never affected:
+  [OK] Documents
+  [OK] Pictures
+  [OK] Videos
+  [OK] Music
+  [OK] Downloads and exported projects
+
+  [1] Remove runtime only; retain applications and data
+  [2] Remove runtime and managed program components;
+      retain internal application data
+  [3] Remove runtime, managed program components and all
+      internal application data
+  [B] Back
+
+Select an action: _
+
+Destructive confirmation:
+
++------------------------------------------------------------+
+|  PERMANENTLY DELETE INTERNAL APPLICATION DATA              |
++------------------------------------------------------------+
+  This deletes settings, caches, local databases, login state,
+  private saves and resume information for 2 applications.
+
+  A later installation will start without this state.
+  Documents, pictures, videos and files in user folders are
+  not deleted.
+
+  Type WINDOWS to continue: _
+
+8. Diagnostics
+--------------
+
++------------------------------------------------------------+
+|  STATUS AND DIAGNOSTICS                                    |
++------------------------------------------------------------+
+  Runtime:          [OK] 1.4.0
+  Application DB:   [OK] consistent
+  Format handlers:  [OK] registered for current user
+  Permission broker:[OK] running
+  Desktop bridge:   [OK] running
+  Update metadata:  [OK] signature valid
+
+  [1] Run self-test
+  [2] Export redacted diagnostic report
+  [3] Repair user integration
+  [B] Back
+
+Select an action: _
+
+Failure format:
+
+  [X] Windows application could not start
+  Code: COAC-WIN-LOADER-004
+  Component: PE loader
+  Reason: required source API is not implemented
+  Next: cross-os-compat status --component windows-runtime
+
+9. Narrow terminal layout
+-------------------------
+
+For terminals narrower than 80 columns:
+
+[COAC] Cross-OS Application Compatibility
+Host: Linux x86_64 | [OK] Ready
+[!] Update 1.4.0 available
+
+1 Install compatibility
+2 Reinstall compatibility
+3 Remove compatibility
+4 Applications
+5 Remaining internal data
+6 Status and diagnostics
+Q Quit
+
+Action: _
+
+10. Color rules
+---------------
+
+If color is supported:
+  green   [OK]
+  yellow  [!]
+  red     [X] and destructive headings
+  cyan    selected item and section heading
+  default all normal text
+
+Honor NO_COLOR. Disable color when output is redirected or TERM=dumb.
+Never encode state using color alone.
+
+11. Input and accessibility
+---------------------------
+
+- Accept upper- and lowercase commands.
+- Keep one stable shortcut per action.
+- Never start a destructive action on Enter alone.
+- Print complete labels for screen readers.
+- Avoid animated spinners when reduced motion or non-interactive output is used.
+- Preserve a plain-text log without ANSI escape sequences.
+- Keep prompts on their own line.
+- On Ctrl+C, stop safely before mutation or complete/rollback the atomic step.
+- Localize visible text, but keep commands and diagnostic codes stable.
