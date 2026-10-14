@@ -145,30 +145,21 @@ Alle Kommunikation erfolgt ausschließlich über `AGENTS_communication.md`.
 
 Nachricht eines `OS_AGENT` oder `HELP_AGENT`:
 
-```text
-`Agent-UUID`:
-
-
+`Agent-UUID:`
 ```text
 <Nachricht an FULL_AGENT>
 ```
-```
+
 Nachricht des `FULL_AGENT` an einen Agenten:
 
-```text
-To-Agent-UUID:
-```
-
+`To-Agent-UUID:`
 ```text
 <Auftrag oder Antwort>
 ```
 
 `Agent-UUID` und `To-Agent-UUID` sind durch die tatsächliche UUID zu ersetzen, zum Beispiel:
 
-```text
-To-550e8400-e29b-41d4-a716-446655440000:
-```
-
+`To-550e8400-e29b-41d4-a716-446655440000:`
 ```text
 Implementiere den angegebenen Loader-Vertrag und melde Tests und Abweichungen zurück.
 ```
