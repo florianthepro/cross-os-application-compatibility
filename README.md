@@ -1,5 +1,5 @@
 > [!CAUTION]
-> disclaimer: Made uder use of AI
+> disclaimer: Repo Made uder use of AI
 
 # Cross-OS Application Compatibility
 
