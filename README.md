@@ -1,6 +1,15 @@
 > [!CAUTION]
 > Disclaimer: This repository was created using AI.
 
+<table>
+  <tr>
+    <td bgcolor="#ff4d4d" valign="middle">
+      <font color="#ffffff"><b>Disclaimer:</b> Dieses Repo wurde unter Verwendung von KI erstellt.</font>
+    </td>
+  </tr>
+</table>
+
+
 # Cross-OS Application Compatibility
 
 ```text
