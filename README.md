@@ -1,4 +1,12 @@
-> **Warning** disclaimer: Made uder use of AI
+> **Note**
+>
+> This is a note
+
+> **Warning**
+>
+> This is a warning
+
+Made uder use of AI
 # Cross-OS Application Compatibility
 
 ```text
