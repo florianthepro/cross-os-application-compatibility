@@ -1,16 +1,5 @@
-<table>
-  <tr>
-    <td bgcolor="#ff4d4d" width="100%">
-      <span style="color:white;"><b>Disclaimer:</b> Dieses Repo wurde unter Verwendung von KI erstellt.</span>
-    </td>
-  </tr>
-</table>
-
-
-
-
 > [!CAUTION]
-> disclaimer: Repo Made uder use of AI
+> Disclaimer: This repository was created using AI.
 
 # Cross-OS Application Compatibility
 
