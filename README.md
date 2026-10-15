@@ -1,10 +1,9 @@
-<div style="background-color:#ffdddd; color:#b00000; padding:10px 14px; border-left:6px solid #b00000;">
-Disclaimer: Dieses Repo wurde unter Verwendung von KI erstellt.
-</div>
+<table>
+  <tr>
+    <td bgcolor="#ffcccc"><b>Disclaimer:</b> Dieses Repo wurde unter Verwendung von KI erstellt.</td>
+  </tr>
+</table>
 
-<div style="background-color:#ffd6d6; color:#8a0000; padding:10px 14px; border:1px solid #b00000; border-radius:6px;">
-Disclaimer: Dieses Repo wurde unter Verwendung von KI erstellt.
-</div>
 
 
 > [!CAUTION]
