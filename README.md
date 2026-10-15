@@ -1,10 +1,4 @@
-> **Note**
->
-> This is a note
-
-> **Warning**
->
-> This is a warning
+> [!CAUTION] Negative potential consequences of an action.
 
 Made uder use of AI
 # Cross-OS Application Compatibility
