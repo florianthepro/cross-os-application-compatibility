@@ -1,5 +1,5 @@
 > [!CAUTION]
-> Made uder use of AI
+> disclaimer: Made uder use of AI
 
 # Cross-OS Application Compatibility
 
